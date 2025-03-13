@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glotr</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defern src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <button class="menu-btn">
+                <img src="img/burger-btn.svg" alt="меню">
+            </button>
+    
+            <form class="search-form">
+                <button type="submit">
+                    <img src="img/search-lg.svg" alt="поиск">
+                </button>
+                <input
+                    class="search-input"
+                    type="search"
+                    placeholder="Искать на Glotr" 
+                />
+            </form>
+        </nav>
+
+        <nav>
+            <ul class="breadcrumb">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Товары</a></li>
+                <li class="active">Красота и здоровье</li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul class="tabs">
+                <li>
+                    <button type="button">Описание</button>
+                </li>
+                <li>
+                    <button class="active" type="button">Характеристика</button>
+                </li>
+                <li>
+                    <button type="button">Продавец</button>
+                </li>
+                <li>
+                    <button type="button">Отзывы</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="product-slider swiper">
+                <button type="button" class="like-btn like">
+                    <img src="img/heart.svg" alt="heart">
+                </button>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-item">
+                        <img src="img/mac.png" alt="macbook">
+                    </div>
+                    <div class="swiper-slide product-item">
+                        <img src="img/mac.png" alt="macbook">
+                    </div>
+                    <div class="swiper-slide product-item">
+                        <img src="img/mac.png" alt="macbook">
+                    </div>
+                    <div class="swiper-slide product-item">
+                        <img src="img/mac.png" alt="macbook">
+                    </div>
+                    <div class="swiper-slide product-item">
+                        <img src="img/mac.png" alt="macbook">
+                    </div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="product-info">
+            <h2 class="title">Apple Macbook air, M1, 512 SSD gb,<br> 32gb RAM</h2>
+            <div class="product-info_extra">
+                <span class="product-info_availability">Нет в наличии</span>
+                <span class="product-info_code">Код 32453</span>
+            </div>
+            <h1 class="product-info_price">12 850 000 сум/шт</h1>
+            <div class="product-info_extra__specify">
+                <button type="button" class="product-info_specify confirm__modal-btn btn">Уточнить наличие</button>
+                <button type="button" class="product-info_chat btn-secondary">
+                    <img src="img/chat.svg" alt="chat">
+                </button>
+            </div>
+        </section>
+
+        <section class="product-desc_block">
+            <h2 class="title">Описание</h2>
+            <p class="product-desc">Оптический привод С новой силой. С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9 раз. Новый Mac. Book Air работает без подзарядки дольше, чем предыдущие модели.</p>
+            <button type="button" class="view-all">
+                Показать все
+                <span>
+                    <img src="img/arrow-down.svg" alt="arrow">
+                </span>
+            </button>
+        </section>
+
+        <section class="product-characteristics">
+            <h2 class="title">Характеристики</h2>
+            <ul class="characteristics">
+                <li>
+                    <span>Код товара</span>
+                    <span>MGN93RU/A </span>
+                </li>
+                <li>
+                    <span>Производитель</span>
+                    <span>Apple</span>
+                </li>
+                <li>
+                    <span>Разрешение экрана </span>
+                    <span>2560x1600</span>
+                </li>
+                <li>
+                    <span>Количество ядер процессора</span>
+                    <span>8</span>
+                </li>
+                <li>
+                    <span>Оптический привод</span>
+                    <span>Отсутствует</span>
+                </li>
+            </ul>
+            <button type="button" class="view-all">
+                Показать все
+                <span>
+                    <img src="img/arrow-down.svg" alt="arrow">
+                </span>
+            </button>
+        </section>
+
+        <section class="methods">
+            <h2 class="title">Способы оплаты</h2>
+
+            <ul class="methods-list">
+                <li>- Наличными</li>
+                <li>- Перечислением</li>
+                <li>- Терминал UzCard</li>
+                <li>- Терминал HUMO</li>
+                <li>- POS терминал</li>
+                <li>- Рayme</li>
+            </ul>
+
+            <button type="button" class="view-all">
+                Подробно
+                <span>
+                    <img src="img/arrow-down.svg" alt="arrow">
+                </span>
+            </button>
+        </section>
+
+        <section class="methods">
+            <h2 class="title">Способы доставки</h2>
+
+            <ul class="methods-list">
+                <li>- Доставка куръером</li>
+                <li>- Доставка почтой</li>
+            </ul>
+
+            <button type="button" class="view-all">
+                Подробно
+                <span>
+                    <img src="img/arrow-down.svg" alt="arrow">
+                </span>
+            </button>
+        </section>
+
+        <section class="salesman-inf">
+            <h2 class="title">
+                Продавец
+                <a href="#">Перейти на сайт</a>
+            </h2>
+
+            <div class="salesman-inf__location">
+                <div class="salesman-inf__location-img">
+                    <img src="img/amazon.png" alt="amazon">
+                </div>
+
+                <div class="salesman-inf__location-info">
+                    <h3>Amazon</h3>
+                    <p>г. Ташкент, Узбекистан</p>
+                </div>
+            </div>
+
+            <ul class="salesman-inf__extra">
+                <li>
+                    <img src="img/clock.svg" alt="clock">
+                    <span>Сегодня работает до 18:00  <span class="salesman_inf__extra-red">Весь график</span></span></li>
+                <li>
+                    <img src="img/phone.svg" alt="phone">
+                    <span>+998 99  ...  <span class="salesman_inf__extra-red">показать номер</span></span></li>
+                <li>
+                    <img src="img/site.svg" alt="site">
+                    <a href="#" class="salesman_inf__extra-red">amazon.com</a>
+                </li>
+            </ul>
+
+            <div class="salesman-inf__products_order">
+                <a type="button" class="all-products__link btn">Все товары продавца</a>
+                <a type="button" class="order-call__link btn-secondary">Заказать звонок</a>
+            </div>
+        </section>
+
+        <section class="same-products">
+            <h2 class="title">
+                Похожие товары продавца
+                <div>
+                    <img src="img/arrow.svg" alt="arrow">
+                </div>
+            </h2>
+
+            <div class="products__list">
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <span class="discount">-15%</span>
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <span class="discount">-15%</span>
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recommendations">
+            <h2 class="title">
+                Похожие товары продавца
+                <div>
+                    <img src="img/arrow.svg" alt="arrow">
+                </div>
+            </h2>
+
+            <div class="products__list">
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <span class="discount">-15%</span>
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <span class="discount">-15%</span>
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <button type="button" class="product__item-like like">
+                        <img src="img/heart.svg" alt="heart">
+                    </button>
+                    <div class="products__img">
+                        <img src="img/watch.png" alt="watch">
+                    </div>
+                    <div class="products__inf">
+                        <h3>Knife Sharpener Tool Professional</h3>
+                        <p class="stock">В наличии</p>
+                        <p class="products__price"><span>3 000 000</span> сум</p>
+                    </div>
+                    <div class="products__location-store">
+                        <p class="products__store">Media Park</p>
+                        <p class="products__location">г. Ташкент</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="title">
+            У нас ищут
+            <div>
+                <img src="img/arrow.svg" alt="arrow">
+            </div>
+        </h2>
+
+        <div class="tabs__container">
+            <div class="find__tabs">
+                <a href="#">Камера</a>
+                <a href="#">Куртки женские</a>
+                <a href="#">Автозапчасти</a>
+                <a href="#">Радиаторы и обогреватели</a>
+                <a href="#">Радиаторы и обогреватели</a>
+                <a href="#">Спортивные костюмы</a>
+                <a href="#">Куртки женские</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal__container">
+        <div class="placing__order-modal">
+            <h2 class="modal__title">
+                Подтвердите заказ
+                <button class="close-btn">
+                    <img src="img/cross.svg" alt="cross">
+                </button>
+            </h2>
+    
+            <section class="content">
+                <h3 class="content__title">Код подтверждения</h3>
+                <p class="content__desc">Для подтверждения заказа. Мы вам отправили код на ваш номер +998 90 909 90 90</p>
+    
+                <form action="#">
+                    <h4 class="content__subtitle">Код</h4>
+                    <input type="number" class="content__input">
+        
+                    <p class="content__code-repeat">Получить код повторно можно через <span>1:52</span></p>
+        
+                    <button type="submit" class="content__submit confirm__order-btn">Подтвердить</button>
+                    <button type="button" class="content__cancel close-btn">Отменить</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <div class="confirm__order-modal">
+        <h2 class="modal__title">
+            Подтвердите заказ
+            <button class="close-btn">
+                <img src="img/cross.svg" alt="cross">
+            </button>
+        </h2>
+
+        <div class="confirm__content">
+            <section class="company__inf">
+                <div class="company__logo">
+                    <img src="img/company.png" alt="company">
+                </div>
+                <div class="company__desc">
+                    <h3>E-bidet Uzbekistan</h3>
+                    <p>Ташкент, Шайхантахурский район</p>
+                </div>
+            </section>
+    
+            <section class="success__order">
+                <div class="success__order-img">
+                    <img src="img/checked 1.png" alt="checked">
+                </div>
+                <h3>Номер заказа: 3957</h3>
+                <p>Ваш заказ успешно принят <br> и передан на обработку продавцу.</p>
+            </section>
+    
+            <section class="order__inf-list">
+                <ul>
+                    <li>
+                        <span class="order__list-field">
+                            <img src="img/heart.svg" alt="heart">
+                            Компания
+                        </span>
+                        <span class="order__inf">E-bidet Uzbekistan</span>
+                    </li>
+                    <li>
+                        <span class="order__list-field">
+                            <img src="img/location.svg" alt="location">
+                            Адрес
+                        </span>
+                        <span class="order__inf">г.Ташкент, ул. Саларская 35 В две строки</span>
+                    </li>
+                    <li>
+                        <span class="order__list-field">
+                            <img src="img/clock-blck.svg" alt="clock">
+                            График работы
+                        </span>
+                        <span class="order__inf">
+                            <a href="#">Посмтореть</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="order__list-field">
+                            <img src="img/phone-bl.svg" alt="phone">
+                            Номер телефона
+                        </span>
+                        <span class="order__inf">+998 90 900 90 90</span>
+                    </li>
+                    <li>
+                        <span class="order__list-field">
+                            <img src="img/site-bl.svg" alt="site">
+                            Сайт
+                        </span>
+                        <span class="order__inf">
+                            <a href="#">wellblue.gl.uz</a>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+    
+            <a href="#" class="link_all-items">
+                Все товары продавца
+            </a>    
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
