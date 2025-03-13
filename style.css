@@ -184,6 +184,9 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
 }
 
 .tabs li button {
